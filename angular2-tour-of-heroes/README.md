@@ -1,6 +1,6 @@
 # Dev Notes
 
 ### Project Setup
-- seeding from https://angular.io/docs/ts/latest/quickstart.html
+- seeding from https://angular.io/docs/ts/latest/tutorial/
 
-- npm packages are not source controlled, but package.json file is provided. Run 'npm install' at where package.json file is located to pull all npm packages under 'node_modules' directory.
+- 'Tour of Heroes' tutorial is to be continued by copying 'Quickstart' folder. But 'npm start' ran into an error with this approach. The fix was delete 'node_modules' folder and re-run 'npm install'.
