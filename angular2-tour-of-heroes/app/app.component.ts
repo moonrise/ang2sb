@@ -85,7 +85,7 @@ export class AppComponent implements OnInit {
   }
 
   getHeroes() {
-    this.heroes = this._heroSerice.getHeroes();
+    this._heroSerice.getHeroes().then(heroes => this.heroes = heroes);
   }
 
   onSelect (hero: Hero) {
